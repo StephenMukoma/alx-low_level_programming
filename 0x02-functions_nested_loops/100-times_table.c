@@ -46,4 +46,5 @@ void print_times_table(int n)
 		CI = CI + 1;
 		_putchar('\n');
 	}
+	}
 }

@@ -10,5 +10,5 @@ void print_alphabet(void)
 	{
 		_putchar(lowrider);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }

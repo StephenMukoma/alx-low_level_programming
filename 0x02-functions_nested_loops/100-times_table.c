@@ -9,7 +9,6 @@ void print_times_table(int n)
 	int count, CI, num, out, ref;
 
 	CI = 0;
-
 	if (n < 0 || n > 15)
 	{
 	}

@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *fizz_buzz - print numbers and fizzbuzz
- *
- *@FB: parameter divisible 3,5
+ *main - print numbers and fizzbuzz
  *
  *Return: Always 0 (success)
  */

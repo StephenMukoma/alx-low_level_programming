@@ -7,6 +7,7 @@
 void print_line(int n)
 {
 	int count, D;
+
 	D = 95;
 
 	if (n <= 0)

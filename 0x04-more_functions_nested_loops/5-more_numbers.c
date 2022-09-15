@@ -6,21 +6,26 @@
  */
 void more_numbers(void)
 {
-	int count, num1, num2, num3;
+	int count, num1, num2;
 
 	for (count = 0 ; count < 10; count++)
 	{
 
-	for (num1 = 48; num1 <= 57; num1++)
+	for (num1 = 48; num1 <= 50; num1++)
 	{
-		_putchar(num1);
-	}
-	num2 = 49;
-		for (num3 = 48; num3 <= 52; num3++)
+		for (num2 = 48; num2 < 58; num2++)
 		{
+			if (num1 > 48 && num2 > 52)
+			{
+				break;
+			}
+			if (num1 > 48)
+			{
+				_putchar(num1);
+			}
 			_putchar(num2);
-			_putchar(num3);
 		}
+	}
 	_putchar('\n');
 	}
 }

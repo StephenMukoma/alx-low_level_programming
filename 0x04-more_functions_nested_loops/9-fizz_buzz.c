@@ -10,8 +10,12 @@ int main(void)
 {
 	int FB;
 
-	for (FB = 1; FB <= 100; FB++)
+	for (FB = 1; FB < 100; FB++)
 	{
+		if (FB == 100)
+		{
+			printf("Buzz");
+		}
 	if (FB % 3 == 0 && FB % 5 == 0)
 	{
 		printf("Fizz ");

@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-	if (FB % 3 == 0 && FB % 5 == 0)
+		else if (FB % 3 == 0 && FB % 5 == 0)
 	{
 		printf("FizzBuzz ");
 	}

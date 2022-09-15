@@ -19,7 +19,7 @@ void print_triangle(int size)
 			}
 			for (count3 = 0; count3 <= (size - count2); count3++)
 			{
-				_putchar('\n');
+				_putchar('#');
 			}
 		}
 		else

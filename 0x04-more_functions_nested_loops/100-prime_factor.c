@@ -17,6 +17,6 @@ int main(void)
 			optimusprime--;
 		}
 	}
-	printf("%ls\n", optimusprime);
+	printf("%ld\n", optimusprime);
 	return (0);
 }

@@ -12,7 +12,7 @@ int main(void)
 
 	for (FB = 1; FB <= 100; FB++)
 	{
-	if (FB % 3 == 0)
+	if (FB % 3 == 0 && FB % 5 == 0)
 	{
 		printf("Fizz ");
 	}
@@ -20,9 +20,9 @@ int main(void)
 	{
 		printf("Buzz ");
 	}
-	else if (FB % 3 == 0 && FB % 5 == 0)
+	else if (FB % 3 == 0)
 	{
-		printf("Fizz Buzz ");
+		printf("FizzBuzz ");
 	}
 	else
 	{

@@ -8,7 +8,7 @@ int main(void)
 {
 	int FB;
 
-	for (FB = 1; FB < 100; FB++)
+	for (FB = 1; FB <= 100; FB++)
 	{
 		if (FB == 100)
 		{

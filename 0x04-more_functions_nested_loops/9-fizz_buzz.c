@@ -2,7 +2,7 @@
 /**
  *fizz_buzz - print numbers and fizzbuzz
  *
- * @FB: parameter divisible 3,5
+ *@FB: parameter divisible 3,5
  *
  *Return: Always 0 (success)
  */
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("Buzz ");
 	}
-	else if (FB % 3 && FB % 5 == 0)
+	else if (FB % 3 == 0 && FB % 5 == 0)
 	{
 		printf("Fizz Buzz ");
 	}

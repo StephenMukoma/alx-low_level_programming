@@ -7,7 +7,7 @@
 */
 void print_number(int n)
 {
-	unsigned int div, temp, temp2;
+	unsigned int div, temp, temp1;
 
 	if (n < 0)
 	{
@@ -31,6 +31,6 @@ void print_number(int n)
 	while (div >= 1)
 	{
 		_putchar(((temp / div) % 10) + 48);
-		divisor /= 10;
+		div /= 10;
 	}
 }

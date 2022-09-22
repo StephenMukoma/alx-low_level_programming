@@ -1,7 +1,5 @@
 #include <stdio.h>
-/**
-*main - print
-*/
+
 int main(void)
 {
 	int n;

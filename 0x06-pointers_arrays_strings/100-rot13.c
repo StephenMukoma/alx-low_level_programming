@@ -15,13 +15,13 @@ char *rot13(char *str)
 	for (s = 0; *(str + s) != '\0'; s++)
 	{
 		for (t = 0; *(letters + t) != '\0'; t++)
+		{
+			if (*(str + s) == *(letters + t))
 			{
-				if (*(str + s) == *(letters + t))
-				{
-					*(str + s) = *(rot13 + t);
-					break;
-				}
+				*(str + s) = *(rot13 + t);
+				break;
 			}
+		}
 	}
 	return (str);
 }

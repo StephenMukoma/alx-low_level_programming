@@ -14,14 +14,14 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int s;
 
-	for (s = o; s < n && *(src + s) != '\0'; s++)
+	for (s = 0; s < n && *(src + s) != '\0'; s++)
 	{
 		*(dest + s) = *(src + s);
 	}
 	while (s < n)
 	{
 		*(dest + s) = '\0';
-		s++
+		s++;
 	}
 	return (dest);
 }

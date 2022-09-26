@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*unsigned int _strspn- gets length of of prefix substring
+*_strspn- gets length of of prefix substring
 *
 *@s: parameter string
 *
@@ -8,7 +8,7 @@
 *
 *Return: length of string
 */
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count, t, r;
 	int boolean;

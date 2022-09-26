@@ -7,7 +7,7 @@
 *
 *Return: pointer
 */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 	int s, t, r, length, count;
 
@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle);
 		s = 0;
 		if (haystack[t] == needle[s])
 		{
-			k = t;
+			r = t;
 			for (count = 0; count < length; count++)
 			{
 				if (haystack[r] != needle[s])

@@ -15,20 +15,20 @@ char *_strpbrk(char *s, char *accept)
 	while (*s)
 	{
 		t = 0;
-		while (*(accept + j))
+		while (*(accept + t))
 		{
 			if (*s == *(accept + t))
 			{
 				boolean = 0;
 				break;
 			}
-			t++
+			t++;
 		}
 		if (boolean == 0)
 		{
 			break;
 		}
-		s++
+		s++;
 	}
 	if (*s != '\0')
 	{

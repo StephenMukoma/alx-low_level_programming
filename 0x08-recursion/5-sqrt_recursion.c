@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_sqrt_recursion - Compute squareroot
+*sqrtfnc - Compute squareroot
 *
 *@i: integer
 *@n: square

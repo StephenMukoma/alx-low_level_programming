@@ -7,7 +7,7 @@
 */
 void change(int num)
 {
-	inti cents;
+	int cents;
 
 	cents = 0;
 	while (num != 0)

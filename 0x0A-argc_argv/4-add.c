@@ -21,11 +21,11 @@ int main(int argc, char *argv[])
 		{
 			if (!isdigit(argv[a][r]))
 			{
-				print("Error\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
-		total += atoi(argv[a]);
+		sum += atoi(argv[a]);
 	}
 	printf("%d\n", sum);
 	return (0);

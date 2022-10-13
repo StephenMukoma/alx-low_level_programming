@@ -1,8 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * main - prints the opcodes of its own main function
  * @argc: argument count.
  * @argv: argument vector.
  *

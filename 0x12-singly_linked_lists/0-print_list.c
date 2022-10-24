@@ -3,19 +3,34 @@
 /**
 *print_list -  function that prints all the elements of a list
 *
-*@list_t:
-*@h:
+*@h: pointer to first element in string
 *
 *Return: the number of nodes
 */
 size_t print_list(const list_t *h)
 {
-	size_t count;
+	size_t count = 0;
+	const list_t *list = NULL;
 
-	for (count = 0 ; h; count++)
+	if (h == NULL)
+		return (0);
+
+	list = malloc(sizeof(list_t));
+
+	if (list == NULL)
+		return (0);
+
+	list = h;
+
+	while (list != NULL)
 	{
-		printf("%d\n", h->next);
-		h = h->next;
+		if (list->str == NULL)
+			printf("[%u] %s\n", 0, "(nil)");
+		else
+			printf("[%u] %s\n", list->len, list->str);
+
+		list = list->next;
+		count++;
 	}
 	return (count);
 }

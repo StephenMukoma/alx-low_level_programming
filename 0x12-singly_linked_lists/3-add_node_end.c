@@ -4,7 +4,7 @@
 /**
 *add_node_end - function that adds a new node at the end of a list
 *
-*@head: pointer to address 
+*@head: pointer to address
 *
 *@str: element to be added
 *

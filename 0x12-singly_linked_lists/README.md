@@ -34,44 +34,44 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 Repo:
 
-**GitHub repository**: alx-low\_level\_programming 
-**Directory**: 0x12-singly\_linked\_lists 
-**File**: 0-print\_list.c 
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 0-print\_list.c 
 
 Write a function that prints all the elements of a list\_t list. 
 
-**Prototype**: size\_t print\_list(const list\_t \*h) 
-**Return**: the number of nodes 
-**Format**: see example 
-If str is NULL, print [0] (nil)  
-You are allowed to use printf  
+- **Prototype**: size\_t print\_list(const list\_t \*h) 
+- **Return**: the number of nodes 
+- **Format**: see example 
+- If str is NULL, print [0] (nil)  
+- You are allowed to use printf  
 
 ## Task 1
 
 Repo: 
 
-**GitHub repository**: alx-low\_level\_programming 
-**Directory**: 0x12-singly\_linked\_lists 
-**File**: 1-list\_len.c 
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 1-list\_len.c 
 
 Write a function that returns the number of elements in a linked list\_t list. 
 
-Prototype: size\_t list\_len(const list\_t \*h);
+- **Prototype** : size\_t list\_len(const list\_t \*h);
 
 ## Task 2
 
 Repo:
 
-**GitHub repository**: alx-low\_level\_programming 
-**Directory**: 0x12-singly\_linked\_lists 
-**File**: 2-add\_node.c 
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 2-add\_node.c 
 
 Write a function that adds a new node at the beginning of a list\_t list.
 
-**Prototype**: list\_t \*add\_node(list\_t \*\*head, const char \*str); 
-**Return**: the address of the new element, or NULL if it failed 
-str needs to be duplicated 
-You are allowed to use strdup 
+- **Prototype**: list\_t \*add\_node(list\_t \*\*head, const char \*str); 
+- **Return**: the address of the new element, or NULL if it failed 
+- str needs to be duplicated 
+- You are allowed to use strdup 
 
 ## Task 3
 
@@ -90,6 +90,27 @@ Write a function that adds a new node at the end of a list\_t list.
 
 ## Task 4
 
+Repo: 
+
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 4-free\_list.c 
+
+Write a function that frees a list\_t list. 
+
+- **Prototype**: void free\_list(list\_t \*head);
+ 
 ## Task 5
+
+Repo: 
+
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 100-first.c 
+
+Write a function that prints You're beat! and yet, you must allow,\\nI bore my house upon my back\!\\n before the main function is executed. 
+
+- You are allowed to use the printf function 
+
 
 ## Task 6

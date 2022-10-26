@@ -75,6 +75,19 @@ You are allowed to use strdup
 
 ## Task 3
 
+Repo: 
+
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x12-singly\_linked\_lists 
+- **File**: 3-add\_node\_end.c 
+
+Write a function that adds a new node at the end of a list\_t list. 
+
+- **Prototype**: list\_t \*add\_node\_end(list\_t \*\*head, const char \*str); 
+- **Return**: the address of the new element, or NULL if it failed
+- str needs to be duplicated
+- You are allowed to use strdup
+
 ## Task 4
 
 ## Task 5

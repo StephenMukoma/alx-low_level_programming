@@ -58,3 +58,25 @@ Write a function that returns the number of elements in a linked list\_t list.
 
 Prototype: size\_t list\_len(const list\_t \*h);
 
+## Task 2
+
+Repo:
+
+**GitHub repository**: alx-low\_level\_programming 
+**Directory**: 0x12-singly\_linked\_lists 
+**File**: 2-add\_node.c 
+
+Write a function that adds a new node at the beginning of a list\_t list.
+
+**Prototype**: list\_t \*add\_node(list\_t \*\*head, const char \*str); 
+**Return**: the address of the new element, or NULL if it failed 
+str needs to be duplicated 
+You are allowed to use strdup 
+
+## Task 3
+
+## Task 4
+
+## Task 5
+
+## Task 6

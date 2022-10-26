@@ -32,10 +32,29 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ### Task 0
 
+Repo:
+
+**GitHub repository**: alx-low\_level\_programming
+**Directory**: 0x12-singly\_linked\_lists
+**File**: 0-print\_list.c
+
 Write a function that prints all the elements of a list\_t list. 
 
-	- **Prototype**: size\_t print\_list(const list\_t \*h); 
-	- **Return**: the number of nodes 
-	- **Format**: see example 
-	- If str is NULL, print [0] (nil) 
-	- You are allowed to use printf 
+**Prototype**: size\_t print\_list(const list\_t \*h) 
+**Return**: the number of nodes 
+**Format**: see example 
+If str is NULL, print [0] (nil)  
+You are allowed to use printf  
+
+## Task 1
+
+Repo:
+
+**GitHub repository**: alx-low\_level\_programming
+**Directory**: 0x12-singly\_linked\_lists
+**File**: 1-list\_len.c
+
+Write a function that returns the number of elements in a linked list\_t list. 
+
+Prototype: size\_t list\_len(const list\_t \*h);
+

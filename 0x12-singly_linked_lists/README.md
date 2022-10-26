@@ -34,9 +34,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 Repo:
 
-**GitHub repository**: alx-low\_level\_programming
-**Directory**: 0x12-singly\_linked\_lists
-**File**: 0-print\_list.c
+**GitHub repository**: alx-low\_level\_programming 
+**Directory**: 0x12-singly\_linked\_lists 
+**File**: 0-print\_list.c 
 
 Write a function that prints all the elements of a list\_t list. 
 
@@ -48,11 +48,11 @@ You are allowed to use printf
 
 ## Task 1
 
-Repo:
+Repo: 
 
-**GitHub repository**: alx-low\_level\_programming
-**Directory**: 0x12-singly\_linked\_lists
-**File**: 1-list\_len.c
+**GitHub repository**: alx-low\_level\_programming 
+**Directory**: 0x12-singly\_linked\_lists 
+**File**: 1-list\_len.c 
 
 Write a function that returns the number of elements in a linked list\_t list. 
 

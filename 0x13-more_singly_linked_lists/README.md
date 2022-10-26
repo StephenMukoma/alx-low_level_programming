@@ -32,11 +32,11 @@ How to use linked lists
 
 Write a function that prints all the elements of a listint\_t list.
 
- **Prototype**: size\_t print\_listint(const listint\_t \*h) 
- **Return**: the number of nodes. 
- **Format**: see example. 
- You are allowed to use printf. 
+**Prototype**: size\_t print\_listint(const listint\_t \*h)  
+**Return**: the number of nodes.  
+**Format**: see example.  
+You are allowed to use printf.  
 
- **GitHub repository**: alx-low\_level\_programming. 
- **Directory**: 0x13-more\_singly\_linked\_lists. 
- **File**: 0-print\_listint.c. 
+**GitHub repository**: alx-low\_level\_programming.  
+**Directory**: 0x13-more\_singly\_linked\_lists.  
+**File**: 0-print\_listint.c.  ``

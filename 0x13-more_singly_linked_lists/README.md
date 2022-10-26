@@ -41,13 +41,13 @@ How to use linked lists
 
 ## Tasks
 
-\*\*Task 0\*\*
+### Task 0
 
 Write a function that prints all the elements of a listint\_t list.
 
 Prototype: size\_t print\_listint(const listint\_t \*h);
 
-\*\*Return\*\*: the number of nodes.
+**Return**: the number of nodes.
 
 \*\*Format\*\*: see example.
 

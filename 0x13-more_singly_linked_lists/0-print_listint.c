@@ -11,36 +11,22 @@
 */
 size_t print_listint(const listint_t *h)
 {
+	const listint_t *current;
 	size_t count = 0;
-	const listint_t *list = NULL;
 
 	if (h == NULL)
 	{
 		return (0);
 	}
 
-	list = malloc(sizeof(listint_t));
+	current = h;
 
-	if (list == NULL)
+	while (current != NULL)
 	{
-		return (0);
-	}
-
-	list = h;
-
-	while (list != NULL)
-	{
-		if (list->str == NULL)
-		{
-			printf("[%u] %s\n", 0, "(nil)");
-		}
-		else
-		{
-			printf("[%u] %s\n", list->len, list->str);
-		}
-
-		list = list->next;
+		printf("%d\n", current->n);
 		count++;
+		current = current->next;
 	}
 	return (count);
+
 }

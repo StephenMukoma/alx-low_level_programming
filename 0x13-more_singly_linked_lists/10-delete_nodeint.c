@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*delete_nodeint_at_index - function that deletes the node at index of a linked list.
+*delete_nodeint_at_index -deletes the node at index of a linked list.
 *
 *@head:pointer to first node of list
 *@index:index of the node that should be deleted
@@ -18,7 +18,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	if (index != 0)
 	{
-		for(i = 0; i < index - 1 && new != NULL; i++)
+		for (i = 0; i < index - 1 && new != NULL; i++)
 		{
 			new = new->next;
 		}

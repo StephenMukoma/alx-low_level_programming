@@ -1,6 +1,5 @@
 #include "main.h"
 
-unsigned int _pow(unsigned int base, int power);
 /**
 *_pow - raises base to power
 *

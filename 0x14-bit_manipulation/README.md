@@ -127,9 +127,9 @@ Write a function that checks the endianness.
 
 Repo:
 
-**GitHub repository**: alx-low\_level\_programming 
-**Directory**: 0x14-bit\_manipulation 
-**File**: 101-password 
+- **GitHub repository**: alx-low\_level\_programming 
+- **Directory**: 0x14-bit\_manipulation 
+- **File**: 101-password 
 
 Find the password for this program.
 

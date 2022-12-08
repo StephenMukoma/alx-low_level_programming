@@ -5,7 +5,7 @@
 *@head: pointer to address of list
 *@index: index to return
 *
-*Return: nth node 
+*Return: nth node
 */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -14,9 +14,9 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	while (head)
 	{
 		if (counter == index)
-        	{
-                	return (head);
-        	}
+		{
+			return (head);
+		}
 		head = head->next;
 		counter++;
 	}

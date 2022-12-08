@@ -5,7 +5,7 @@
 *@head: pointer to first element on list
 *@n: data to be added
 *
-*Returns: address of new element
+*Return: address of new element
 */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {

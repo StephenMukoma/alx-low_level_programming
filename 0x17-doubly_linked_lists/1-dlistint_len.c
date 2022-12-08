@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*dlistint_len
+*dlistint_len - number of nodes
 *
 *@h: pointer to list
 *

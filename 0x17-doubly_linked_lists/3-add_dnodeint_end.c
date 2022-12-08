@@ -1,5 +1,5 @@
 #include "lists.h"
-/*
+/**
 *add_dnodeint_end - adds new node at the end
 *
 *@head: pointer to address of list

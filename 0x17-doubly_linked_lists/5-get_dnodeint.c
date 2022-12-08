@@ -2,8 +2,8 @@
 /**
 *get_dnodeint_at_index- returns nth node of a list
 *
-*@head:
-*@index:
+*@head: pointer to address of list
+*@index: index to return
 *
 *Return: nth node 
 */
@@ -11,14 +11,14 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int counter = 0;
 
-	if (counter == index)
+	while (head)
 	{
-		return (NULL);
-	}
-
-	for(counter = 0; counter < index; counter++)
-	{
+		if (counter == index)
+        	{
+                	return (head);
+        	}
 		head = head->next;
+		counter++;
 	}
-	return (head);
+	return (NULL);
 }
